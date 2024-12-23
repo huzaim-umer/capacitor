@@ -12,7 +12,7 @@ spec:
         kind: HelmRepository
         name: bitnami
         namespace: flux-system
-      version: "17.0.0" # Adjust to your desired Redis chart version
+      version: "17.0.0" # Adjust to your desired Redis chart
   interval: 5m
   values:
     architecture: standalone
